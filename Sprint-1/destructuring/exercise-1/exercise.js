@@ -3,6 +3,11 @@ const personOne = {
   age: 34,
   favouriteFood: "Spinach",
 };
+const personTwo = {
+  name: "Alice",
+  age: 32,
+  favouriteFood: "Burger",
+};
 
 // Update the parameter to this function to make it work.
 
@@ -13,4 +18,6 @@ function introduceYourself({name,age,favouriteFood}) {
   );
 }
 
-console.log(introduceYourself(personOne));
+introduceYourself(personOne);
+introduceYourself(personTwo);
+
